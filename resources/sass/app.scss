@@ -1,2 +1,16 @@
-//bootstrap
 @use 'bootstrap';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#site_main {
+    .card {
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+        height: 300px;
+        .card-body {
+            height: 200px;
+        }
+    }
+}
